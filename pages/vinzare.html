@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Vinzare</title>
+  <link rel="icon" href="../images/icon.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <header>
+    <a href="../index.html">
+      Muzica
+      <i class="fas fa-music logo"></i>
+    </a>
+    <i id="meniu-btn" class="fas fa-bars" onclick="show()"></i>
+  </header>
+
+  <div class="page-container">
+    <div id="chenar_mare">
+
+      <aside id="side-menu">
+        <a href="../index.html">Acasa</a>
+        <a href="artisti.html">Artisti</a>
+        <a href="audio_video.html">Audio/Video</a>
+        <a href="caracteristici.html">Caracteristici</a>
+        <a href="vinzare.html">Vinzare</a>
+      </aside>
+
+      <a class="sus-img" href="#" title="Sus" style="display:  inline;">
+        <img class="sus-img" src="../images/sus.png" />
+      </a>
+      <a target="_blank" href="https://www.thomann.de/intl/index.html">
+        <img class="contact-img" src="../images/phone.png" />
+      </a>
+
+      <div>
+        <ul id="meniusus">
+          <li><a href="../index.html">Acasa</a></li>
+          <li><a href="audio_video.html">Audio/Video</a></li>
+          <li><a href="caracteristici.html">Caracteristici</a></li>
+          <li><a href="artisti.html">Artisti</a></li>
+          <li><a href="vinzare.html">Vinzare</a></li>
+        </ul>
+      </div>
+
+      <div id="chenar_fata">
+        <div id="coloana_stinga">
+          <div class="contact-form">
+
+            <form>
+              <h3 class="centered">Contacte: </h3>
+              <b>Adresa: </b>Str. Ulita Mare </br>
+              <b>Telefon: </b>0780 33 662</br>
+              <b>Facebook: </b><a href="https://www.facebook.com/CasadeculturaSl.Mare" color="red">Casa De Cultură
+                SloboziaMare</a>
+            </form>
+
+          </div>
+
+          <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1356.6881583975994!2d28.16769983397836!3d45.572766546836085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe91343fc79f32c8c!2sPalatul%20Culturii!5e0!3m2!1sro!2s!4v1625330676494!5m2!1sro!2s"
+            allowfullscreen="" loading="lazy">
+          </iframe>
+          </br>
+
+          <div class="contact-form">
+            <form>
+              <h2>Lasa un mesaj</h2>
+              <input type="text" placeholder="Nume" required />
+              <input type="email" placeholder="Email" required />
+              <textarea rows="3" placeholder="Mesaj"></textarea>
+              <input type="submit" value="Transmite" />
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div id="continut_pagina">
+
+        <div class="row descriere">
+          <div class="col-100">
+            <b><u>1.Informatii Generale</u></b>
+            <tr>
+              <td>
+                <p><b>Ce instrument doriti sa cumparati?</b>
+                  <input type="text" size="35" maxlength="256" name="text">
+                </p>
+              </td>
+              <td>
+            </tr>
+            <tr>
+              <td>
+                <p><b>Ce modalitate de plata alegeti ?</b>
+                </p>
+                <p>
+                  <input type="radio" name="ModalitatePlata" value="Numerar" checked>
+                  Numerar
+                </p>
+                <p>
+                  <input type="radio" name="ModalitatePlata" value="CarteCredit">
+                  Carte credit
+                </p>
+                <p>
+                  <input type="radio" name="ModalitatePlata" value="TransferBancar">
+                  Transfer bancar
+                </p>
+              </td>
+              </br>
+              </td>
+            </tr>
+            <tr>
+              <td><b>Alte descrieri:</b></td>
+            </tr>
+            <tr>
+              <td>
+                <p align="left"></p>
+                <textarea name="Observatii" rows="5" cols="39">Introduceți aici opțiunile dvs!!!</textarea>
+                </p>
+                <hr align="center">
+              </td>
+            </tr>
+            </table>
+            <p><u><b>2. Adresa de facturare</b></u></p>
+            <tr>
+              <td>
+                </br>Nume &nbsp;&nbsp;<input type="text" name="Nume" required>
+              <td>Prenume <input type="text" name="prenume" required></td>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                </br></br>Email&nbsp;&nbsp;&nbsp; <input type="text" name="email" required>
+              </td>
+            </tr>
+            Telefon &nbsp;<input type="text" name="telefon" required>
+            </td>
+            </tr>
+            <tr>
+              <td>
+                </br></br>Adresa &nbsp;<input type="text" name="adresa" required> 
+              </td>
+            </tr>
+            <label>Oras</label>
+            <select class="form-select" required>
+              <option value="">Alege...</option>
+              <option>Cahul</option>
+            </select>
+
+            <label>Comuna</label>
+            <select class="form-select" required>
+              <option value="">Alege...</option>
+              <option>Slobozia Mare</option>
+              <option>Giurgiulesti</option>
+              <option>Valeni</option>
+              <option>Colibasi</option>
+            </select>
+            <label>Zip</label>
+            <input type="text" id="zip" placeholder="" required>
+            <p><input type="submit" value="Transmite">
+              <input type="reset" value="Reseteaza">
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div id="mesaj">
+      <marquee width="30%" direction="up" height="50px" hspace="40%" scrolldelay="200">
+        DOAR AICI GĂSIȚI CELE MAI BUNE PREȚURI!!!
+      </marquee>
+    </div>
+    <script src="../js/js.js"></script>
+</body>
+
+</html>

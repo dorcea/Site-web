@@ -1,0 +1,418 @@
+﻿* {
+	box-sizing: border-box;
+}
+
+header {
+	height: 70px;
+	background-color: #182850;
+	position:absolute;
+	width:100%;
+	padding-top: 20px;
+	padding-left: 40px;
+	font-size: 24px;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+.logo {
+	margin-left: 5px;
+	font-size: 26px;
+	color: #f7f4f0;
+}
+
+.page-container {
+	min-height: 100vh;
+	padding-top: 70px;
+}
+
+main {
+	margin: 10px 10% 60px 220px;
+	padding: 0px 25px;
+}
+
+aside {
+	width: 190px;
+	height: 100vh;
+	position: fixed;
+	background: linear-gradient(to bottom, #18243f, #10415d);
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+aside a{
+	display: block;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 35px;
+}
+
+.show {
+	display: block !important;
+}
+
+#meniu-btn {
+	color: white;
+	font-size: 25px;
+	position:absolute;
+	right: 25px;
+	display: none;
+}
+
+.logo {
+	margin-left: 5px;
+	font-size: 26px;
+}
+
+
+
+/*-------------------------------*/
+body {
+	color: black;
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+	background-color: #f7f4f0;
+	background-position:center top;
+	margin: 0;
+	padding: 0;
+}
+
+#chenar_mare {
+	width:100%;
+	margin: 0px auto;
+	padding: 0px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	background:rgb(90, 87, 87);
+	
+}
+
+#coloana_stinga {
+	margin: 0 0 0 3px;
+	padding: 0 0 15px 0;
+	width: 310px;
+	float: left;
+}
+
+#coloana_stinga h3 {
+	font-size: 22px;
+	padding:0;
+	margin:0;
+	text-align:center;
+	background-color: rgba(20, 212, 132, 0.705);
+	height:25px;
+	line-height:30px;	
+	color: rgb(41, 31, 31);
+}
+
+#continut_pagina {
+	margin-left: 320px;
+	margin-right: 0px;
+	min-height:575px;
+	padding: 5px;
+	border-top: 2px solid white;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+	
+}
+
+/*setari mesaj jos*/
+#mesaj {
+	margin: 30px 0 0 0;
+	background-repeat:repeat-x;	
+	text-align:center;
+	background-color: #163e57;
+	width: 100%;
+}
+
+/* coloana sting*/
+ul.menu {
+	padding:0px 2px 2px 2px;
+	margin:0 0;
+}
+
+/* Setari meniu sus */
+ul#meniusus {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	line-height:50px;
+	height: 50px;
+}
+
+ul#meniusus li {
+	display: inline-block;
+	text-align: center;
+	padding:0;
+	margin:0;
+	height: 50px;
+}
+
+ul#meniusus li a {
+	display: inline-block;
+	margin: 0;
+	padding:0 15px 0 15px;
+	color: #93b6c8;
+	list-style:none;
+	height:30px;
+	line-height:30px;
+	text-shadow: 0 1px 0 #000;
+}
+/*linia de la meniu de sus */
+ul#meniusus li a:hover, ul#meniusus li a:active, ul#meniusus li a:focus {
+	background-repeat: repeat-x;	
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+}
+
+/* Setari mesajul de jos  */
+ul#continut_mesaj {
+	text-align: center;
+	height:50px;
+	line-height:50px;
+	font-size: 14px;
+}
+
+/* audio */
+figure {
+	margin: auto;
+	color: rgb(42, 211, 211);
+	display: block;
+	padding: 0;
+}
+
+a {
+	color:#0e0af1;
+	text-decoration:none;
+}
+a:hover {
+	color:#f71e1e; 
+	text-decoration:underline;
+	border:none;
+}
+hr {
+	color: #112e3e;
+	width: 90%;
+	text-align: center;
+}
+
+/*inceputul paginii sus*/
+.sus-img { 
+	width: 50px;
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+}
+
+.contact-img {
+    width: 50px;
+    position:fixed;
+    bottom: 90px;
+    right: 20px; 
+}
+
+.contact-img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(3px 4px 5px green);
+}
+
+.artisti{
+    width: 50%;
+    height: 250px;
+    border: 2px solid rgb(37, 118, 184);
+    overflow: auto;
+    padding: 8px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(155, 170, 177), rgb(63, 151, 202));
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.artisti:hover{
+    background: rgb(44, 206, 218);
+}
+
+.artisti img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;/* se taie imaginea dar se pastreaza*/
+    border-radius: 50%;
+}
+.artisti-info {
+    float: right;
+    text-align: center;
+}
+
+.denumiri {
+	text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(174, 240, 236);
+}
+
+.transform {
+    width: 350px;
+    margin-left: 100px;
+    border: 8px solid red;
+  
+}
+
+.transform:hover {
+    transform: translate(10px,10px);/*  transform: translate(210px,210px); miscarea fuge cind dai clic pe a*/
+    transform: scale(50%);/*se face mica poza*/
+    transform: scale(1.05) translate(40px,20px); /*se mareste cu 1.05% si se misca*/
+    transform: rotate(15deg) scale(200%);/*rotirea imaginii cu 15 grade si scale ne da in fata cu 200%*/
+    transform: skew(10deg);/*poza se intinde*/
+    transition: 1s all;/*poza se mareste in timp de 1 secunda pentru toate*/
+    border: 8px solid blue; /*se face in albastru poza*/
+}
+
+h1,h2 {
+    text-align: center;
+	color: bisque;
+}
+
+
+.galerie {
+    text-align: center;
+	display: block;
+	max-height: 50vh;
+	margin: 40px auto;
+	max-width: 100%;
+	border-radius: 8px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.galerie img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border: 6px solid #2e254d;/*chenar poze*/
+    filter: brightness(105%) drop-shadow(7px 5px 1px #74739cd2);/*umbra transparenta la poza*/
+    transition: 1s transform, 1s filter; /*1 secunda pentru transformari*/
+}
+/*imaginea in starea hover din parintele galerie*/
+.galerie img:hover {
+    transform: scale(1.05) skew(-1deg);/*tranzitia la poze cind dam cu mausul pe ele*/
+    transition: 1s transform, 1s filter;
+    filter: brightness(115%) drop-shadow(7px 5px 1px #74739cd2);
+}
+a{
+    text-decoration: none;/*linkurile sa nu fie subliniate, spatiu gol*/
+}
+
+img {
+    max-width: 100%;
+}
+
+.row {
+    overflow: auto;
+    margin-top: 15px;
+	
+}
+
+/*selector pt toate coloanele*/
+[class^="col-"] {
+    float:left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.col-10 { width: 10%; }
+.col-20 { width: 20%; }
+.col-25 { width: 25%;}
+.col-30 { width: 30%; }
+.col-33 { width: 33.3%; }
+.col-40 { width: 40%; }
+.col-50 { width: 50%; }
+.col-60 { width: 60%; }
+.col-70 { width: 70%; }
+.col-80 { width: 80%; }
+.col-90 { width: 90%; }
+.col-100 { width: 100%; }
+
+.centered {
+    text-align: center;
+}
+
+.descriere {
+    background: linear-gradient(to right, rgb(155, 170, 177), rgb(63, 151, 202));
+    border-radius: 10px;
+}
+
+.descriere:hover{
+    background: rgb(44, 206, 218);
+}
+
+
+
+.map {
+	width: 100%;
+	max-width: 400px;
+	height: 210px;
+	margin-left: 0px;
+	border: 2px solid rgb(58, 134, 196);
+}
+
+.centered {
+	text-align: center;
+}
+.contact-form {
+	border-radius: 5px;
+	border: 2px solid rgb(58, 134, 196);
+	background-color: rgb(163, 175, 174);
+	max-width: 400px;
+	padding: 5px 15px 20px 15px;
+	
+}
+.contact-form input, .contact-form textarea {
+	display: block;
+	width: 90%;
+	margin: 15px auto 0px auto;
+	resize: none;
+	font-family: inherit;
+	padding: 3px;
+	font-size: 16px;
+
+}
+
+
+/*-----------------------*/
+
+/*media trebuie sa fie la urma*/
+/*reguli pentru ecran mai mic de 768px*/
+@media  (max-width: 768px) {
+
+	body {
+		font-size: 16px;
+	}
+
+	[class^="col-"] {
+		width: 100%;
+		}
+	}
+
+    main {
+        /*margini din stinga si din drapta*/
+        margin-left: 0px;
+        margin-right: 1%;
+    }
+	aside {
+		display: none;
+		height: auto;
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 25px;
+	}
+
+	#meniu-btn {
+		display: block;
+	}
